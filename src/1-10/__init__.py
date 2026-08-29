@@ -1,0 +1,1 @@
+''' init for problems 1-10 '''

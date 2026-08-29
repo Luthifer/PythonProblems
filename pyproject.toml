@@ -1,0 +1,22 @@
+[project]
+name = "pythonproblems"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "canborewitz", email = "woz575@haw-hamburg.de" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "mypy>=2.3.1",
+    "numpy>=2.5.2",
+    "pandas>=3.0.5",
+    "ruff>=0.16.5",
+]
+
+[project.scripts]
+pythonproblems = "pythonproblems:main"
+
+[build-system]
+requires = ["uv_build>=0.12.6,<0.13.0"]
+build-backend = "uv_build"
